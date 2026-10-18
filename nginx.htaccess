@@ -1,0 +1,26 @@
+# 微信对话生成器 - Nginx 配置参考
+# 让 index.php 作为站点默认入口
+
+server {
+    listen       80;
+    server_name  localhost;
+    root         /www/127.0.0.1;
+    index        index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    # PHP-FPM
+    location ~ \.php$ {
+        fastcgi_pass   127.0.0.1:9000;
+        fastcgi_index  index.php;
+        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        include        fastcgi_params;
+    }
+
+    # 静态资源缓存
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|woff2?|ttf)$ {
+        expires 7d;
+    }
+}

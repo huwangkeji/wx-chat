@@ -1,0 +1,14 @@
+[
+  {
+    "id": "f8ac3c38111f4a8481b87c31b5535b33",
+    "userID": "czshidun",
+    "domainID": "czshidun",
+    "type": "Language preference",
+    "content": "prefers using Chinese for interaction",
+    "remark": "new",
+    "namespace": "DevMate",
+    "createTime": "2026-10-18T15:10:07.232Z",
+    "updateTime": "2026-10-18T15:10:07.232Z",
+    "isDeleted": false
+  }
+]

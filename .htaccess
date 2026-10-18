@@ -1,0 +1,14 @@
+# 微信对话生成器 - Apache 伪静态规则
+# 让 index.php 作为站点默认入口
+
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 直接访问根目录时走 index.php
+    RewriteRule ^$ index.php [L]
+
+    # api.php 路由（保留原样）
+    # RewriteRule ^api$ api.php [L]
+</IfModule>

@@ -1,0 +1,508 @@
+[
+  {
+    "id": "couple-daily",
+    "name": "情侣日常",
+    "desc": "情侣之间温馨甜蜜的日常对话",
+    "tag": "情感",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "21", "time_mini": "30",
+      "battery_charge": "0", "battery_amount": 78, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "宝贝", "message": 3, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "宝贝", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期三 下午 18:20", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "下班了吗？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "刚下班，马上回家", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "今天想吃什么？我去做", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "想吃你做的红烧肉啦", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "好呀，那我先去超市买肉", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "顺便买点水果呗", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "好，想吃什么水果？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-9", "type": "text", "content": "草莓和车厘子！", "is_me": true, "user_id": "u-me" },
+      { "id": "d-10", "type": "text", "content": "收到，小馋猫", "is_me": false, "user_id": "u-1" },
+      { "id": "d-11", "type": "text", "content": "爱你", "is_me": true, "user_id": "u-me" },
+      { "id": "d-12", "type": "voice", "time": 5, "is_me": false, "user_id": "u-1", "isread": "1" },
+      { "id": "d-13", "type": "redpacket", "money": 5.20, "remark": "一点心意", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-14", "type": "text", "content": "收到啦，么么哒", "is_me": false, "user_id": "u-1" },
+      { "id": "d-15", "type": "text", "content": "到家给我发消息哦", "is_me": false, "user_id": "u-1" },
+      { "id": "d-16", "type": "text", "content": "知道啦，等我", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "borrow-money",
+    "name": "朋友借钱",
+    "desc": "朋友开口借钱的经典对话",
+    "tag": "生活",
+    "phone": {
+      "single": "3", "wifi": "4", "wifi_single": "2",
+      "time_hour": "14", "time_mini": "08",
+      "battery_charge": "1", "battery_amount": 45, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "老王", "message": 1, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "老王", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期一 上午 10:15", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "在吗兄弟？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "在的，怎么了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "最近手头有点紧，想跟你借点钱", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "借多少？", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "借5000，下个月发工资就还你", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "做什么用啊？", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "家里有点急事，我妈住院了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-9", "type": "text", "content": "啊？阿姨怎么了，严重吗", "is_me": true, "user_id": "u-me" },
+      { "id": "d-10", "type": "text", "content": "还好，就是突然晕倒住院观察", "is_me": false, "user_id": "u-1" },
+      { "id": "d-11", "type": "text", "content": "行，我转给你，阿姨要紧", "is_me": true, "user_id": "u-me" },
+      { "id": "d-12", "type": "transfer", "money": 5000.00, "remark": "借你的，阿姨早日康复", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-13", "type": "text", "content": "收到，谢谢兄弟！", "is_me": false, "user_id": "u-1" },
+      { "id": "d-14", "type": "text", "content": "不客气，有什么需要再说", "is_me": true, "user_id": "u-me" },
+      { "id": "d-15", "type": "text", "content": "下个月一定还你", "is_me": false, "user_id": "u-1" },
+      { "id": "d-16", "type": "text", "content": "不急，先照顾阿姨", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "boss-work",
+    "name": "老板谈工作",
+    "desc": "老板安排工作的职场对话",
+    "tag": "职场",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "09", "time_mini": "45",
+      "battery_charge": "0", "battery_amount": 88, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "张总", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "张总", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期二 上午 09:30", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "小刘，来我办公室一趟", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "好的张总，马上过去", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "这个项目交给你负责，周五前要交方案", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "没问题，我尽快安排", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "客户要求比较高，方案要用心做", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "voice", "time": 12, "is_me": false, "user_id": "u-1", "isread": "1" },
+      { "id": "d-8", "type": "text", "content": "明白了张总，我下午就拉团队开会", "is_me": true, "user_id": "u-me" },
+      { "id": "d-9", "type": "text", "content": "好，有问题随时找我", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "张总，方案初稿做好了，您看一下", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "我看看", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "text", "content": "整体不错，第三部分再细化一下", "is_me": false, "user_id": "u-1" },
+      { "id": "d-13", "type": "text", "content": "好的，我马上改", "is_me": true, "user_id": "u-me" },
+      { "id": "d-14", "type": "text", "content": "辛苦了，好好干", "is_me": false, "user_id": "u-1" }
+    ]
+  },
+  {
+    "id": "funny-chat",
+    "name": "搞笑对话",
+    "desc": "让人忍俊不禁的搞笑聊天",
+    "tag": "搞笑",
+    "phone": {
+      "single": "2", "wifi": "3", "wifi_single": "1",
+      "time_hour": "23", "time_mini": "59",
+      "battery_charge": "0", "battery_amount": 12, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "沙雕网友", "message": 99, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "沙雕网友", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期五 晚上 23:30", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "你能借我100万吗？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "我只有100块", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "那也行，先借我", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "redpacket", "money": 0.01, "remark": "恭喜发财，大吉大利", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-6", "type": "text", "content": "就这？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "一分也是爱", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "我裂开了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-9", "type": "text", "content": "哈哈哈哈哈哈哈", "is_me": true, "user_id": "u-me" },
+      { "id": "d-10", "type": "text", "content": "你知道我昨天看到什么了吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-11", "type": "text", "content": "啥？", "is_me": true, "user_id": "u-me" },
+      { "id": "d-12", "type": "text", "content": "一只猪在骑自行车", "is_me": false, "user_id": "u-1" },
+      { "id": "d-13", "type": "text", "content": "你怕不是在做梦", "is_me": true, "user_id": "u-me" },
+      { "id": "d-14", "type": "text", "content": "真的！我还拍了照片", "is_me": false, "user_id": "u-1" },
+      { "id": "d-15", "type": "text", "content": "发来看看", "is_me": true, "user_id": "u-me" },
+      { "id": "d-16", "type": "text", "content": "手机摔坏了，照片没了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-17", "type": "text", "content": "我就知道", "is_me": true, "user_id": "u-me" },
+      { "id": "d-18", "type": "voice", "time": 3, "is_me": false, "user_id": "u-1", "isread": "0" }
+    ]
+  },
+  {
+    "id": "new-year",
+    "name": "新年祝福",
+    "desc": "新年期间发红包送祝福",
+    "tag": "节日",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "00", "time_mini": "08",
+      "battery_charge": "1", "battery_amount": 60, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "家人群", "message": 12, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "妈妈", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false },
+      { "id": "u-2", "name": "爸爸", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期一 凌晨 00:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "新年快乐！万事如意！", "is_me": true, "user_id": "u-me" },
+      { "id": "d-3", "type": "text", "content": "新年好新年好", "is_me": false, "user_id": "u-1" },
+      { "id": "d-4", "type": "redpacket", "money": 88.88, "remark": "新年快乐", "is_me": false, "user_id": "u-1", "is_get": true },
+      { "id": "d-5", "type": "text", "content": "谢谢妈，也祝您新年快乐", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "redpacket", "money": 188.88, "remark": "恭喜发财，大吉大利", "is_me": false, "user_id": "u-2", "is_get": true },
+      { "id": "d-7", "type": "text", "content": "爸，您太客气了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "一点心意，收着", "is_me": false, "user_id": "u-2" },
+      { "id": "d-9", "type": "text", "content": "今年回不回家过年啊", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "回的，年二十九到家", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "太好了，妈给你做你爱吃的", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "redpacket", "money": 66.66, "remark": "一点心意", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-13", "type": "text", "content": "孩子有心了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-14", "type": "text", "content": "路上注意安全", "is_me": false, "user_id": "u-2" },
+      { "id": "d-15", "type": "text", "content": "好的爸，放心吧", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "takeout",
+    "name": "外卖对话",
+    "desc": "和外卖小哥的取餐对话",
+    "tag": "生活",
+    "phone": {
+      "single": "3", "wifi": "4", "wifi_single": "2",
+      "time_hour": "12", "time_mini": "15",
+      "battery_charge": "0", "battery_amount": 33, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "外卖小哥", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "外卖小哥", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期四 中午 12:10", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "您好，您的餐到了，到楼下了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "好的，我马上下去拿", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "麻烦快一点，这边不好停车", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "来了来了，稍等", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "您是几号楼的？我找不到", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "3号楼，东门进来左转", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "好的，我在这等着", "is_me": false, "user_id": "u-1" },
+      { "id": "d-9", "type": "text", "content": "到了到了，看到你了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-10", "type": "text", "content": "谢谢小哥，辛苦了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "不客气，祝您用餐愉快", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "transfer", "money": 2.00, "remark": "辛苦费", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-13", "type": "text", "content": "谢谢老板，太客气了", "is_me": false, "user_id": "u-1" }
+    ]
+  },
+  {
+    "id": "game-team",
+    "name": "游戏开黑",
+    "desc": "和兄弟们组队打游戏的对话",
+    "tag": "娱乐",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "20", "time_mini": "30",
+      "battery_charge": "0", "battery_amount": 55, "ear": "1",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "开黑小队", "message": 6, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "阿杰", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false },
+      { "id": "u-2", "name": "大飞", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期六 晚上 20:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "上号上号！等你们好久了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "来了来了，刚吃完饭", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "大飞呢？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "我在我在，刚上线", "is_me": false, "user_id": "u-2" },
+      { "id": "d-6", "type": "text", "content": "今天打什么位置", "is_me": true, "user_id": "u-me" },
+      { "id": "d-7", "type": "text", "content": "我打野，大飞中单", "is_me": false, "user_id": "u-1" },
+      { "id": "d-8", "type": "text", "content": "行，我下路", "is_me": true, "user_id": "u-me" },
+      { "id": "d-9", "type": "voice", "time": 8, "is_me": false, "user_id": "u-2", "isread": "1" },
+      { "id": "d-10", "type": "text", "content": "大飞说辅助别抢他兵", "is_me": false, "user_id": "u-1" },
+      { "id": "d-11", "type": "text", "content": "放心，我只补刀", "is_me": true, "user_id": "u-me" },
+      { "id": "d-12", "type": "text", "content": "开了开了，进房间", "is_me": false, "user_id": "u-1" },
+      { "id": "d-13", "type": "text", "content": "这把稳了，我carry", "is_me": false, "user_id": "u-2" },
+      { "id": "d-14", "type": "text", "content": "别浪，猥琐发育", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "confession",
+    "name": "表白对话",
+    "desc": "鼓起勇气向喜欢的人表白",
+    "tag": "情感",
+    "phone": {
+      "single": "3", "wifi": "1", "wifi_single": "2",
+      "time_hour": "22", "time_mini": "45",
+      "battery_charge": "0", "battery_amount": 28, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "小雅", "message": 2, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "小雅", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期日 晚上 22:30", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "在吗？有件事想跟你说", "is_me": true, "user_id": "u-me" },
+      { "id": "d-3", "type": "text", "content": "在的，什么事呀", "is_me": false, "user_id": "u-1" },
+      { "id": "d-4", "type": "text", "content": "认识你也有半年了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-5", "type": "text", "content": "是呀，时间过得真快", "is_me": false, "user_id": "u-1" },
+      { "id": "d-6", "type": "text", "content": "其实我一直想告诉你...", "is_me": true, "user_id": "u-me" },
+      { "id": "d-7", "type": "text", "content": "我喜欢你，从第一次见面就喜欢了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "voice", "time": 6, "is_me": false, "user_id": "u-1", "isread": "1" },
+      { "id": "d-9", "type": "text", "content": "你认真的吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "认真的，我想了很久才说的", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "其实我也对你有好感", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "text", "content": "真的吗！！", "is_me": true, "user_id": "u-me" },
+      { "id": "d-13", "type": "text", "content": "嗯，我们试试吧", "is_me": false, "user_id": "u-1" },
+      { "id": "d-14", "type": "redpacket", "money": 13.14, "remark": "一生一世", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-15", "type": "text", "content": "好甜，收下了", "is_me": false, "user_id": "u-1" }
+    ]
+  },
+  {
+    "id": "customer-service",
+    "name": "客服退款",
+    "desc": "和淘宝客服沟通退款",
+    "tag": "生活",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "15", "time_mini": "20",
+      "battery_charge": "1", "battery_amount": 70, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "淘宝客服", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "客服小美", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期二 下午 15:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "您好，请问有什么可以帮您", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "我买的衣服有质量问题，想退款", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "好的亲，请问是什么问题呢", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "袖子有破洞，线头都没缝好", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "非常抱歉给您带来不便，麻烦发个照片", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "好的，我拍给你", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "收到了，确实有质量问题", "is_me": false, "user_id": "u-1" },
+      { "id": "d-9", "type": "text", "content": "我帮您申请退款，请稍等", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "好的，谢谢", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "退款已申请，1-3个工作日到账", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "transfer", "money": 199.00, "remark": "退款", "is_me": false, "user_id": "u-1", "is_get": true },
+      { "id": "d-13", "type": "text", "content": "收到了，谢谢客服", "is_me": true, "user_id": "u-me" },
+      { "id": "d-14", "type": "text", "content": "不客气，祝您生活愉快", "is_me": false, "user_id": "u-1" }
+    ]
+  },
+  {
+    "id": "roommate",
+    "name": "室友合租",
+    "desc": "和室友的日常琐碎对话",
+    "tag": "生活",
+    "phone": {
+      "single": "2", "wifi": "1", "wifi_single": "2",
+      "time_hour": "19", "time_mini": "50",
+      "battery_charge": "0", "battery_amount": 40, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "室友老李", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "室友老李", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期三 晚上 19:30", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "你今天倒垃圾了吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "忘了，我现在去", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "顺便买点洗衣液呗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "行，什么牌子的", "is_me": true, "user_id": "u-me" },
+      { "id": "d-6", "type": "text", "content": "蓝月亮就行", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "对了，水电费该交了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-8", "type": "text", "content": "这个月多少", "is_me": true, "user_id": "u-me" },
+      { "id": "d-9", "type": "text", "content": "一共240，一人120", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "transfer", "money": 120.00, "remark": "水电费", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-11", "type": "text", "content": "收到了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "text", "content": "今晚你做饭吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-13", "type": "text", "content": "做，想吃啥", "is_me": true, "user_id": "u-me" },
+      { "id": "d-14", "type": "text", "content": "西红柿炒蛋！", "is_me": false, "user_id": "u-1" },
+      { "id": "d-15", "type": "text", "content": "安排", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "classmate-reunion",
+    "name": "同学叙旧",
+    "desc": "多年未见的同学聊近况",
+    "tag": "社交",
+    "phone": {
+      "single": "3", "wifi": "4", "wifi_single": "2",
+      "time_hour": "16", "time_mini": "30",
+      "battery_charge": "0", "battery_amount": 50, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "高中同学群", "message": 8, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "班长", "image": "static/app/images/icon-wechat.png", "is_me": false, "selected": false },
+      { "id": "u-2", "name": "小芳", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期五 下午 16:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "同学们，毕业十年了，聚一聚？", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "好啊好啊，好久没见了", "is_me": false, "user_id": "u-2" },
+      { "id": "d-4", "type": "text", "content": "我报名！", "is_me": true, "user_id": "u-me" },
+      { "id": "d-5", "type": "text", "content": "定个时间和地点吧", "is_me": false, "user_id": "u-2" },
+      { "id": "d-6", "type": "text", "content": "下个月初怎么样，大家有空吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-7", "type": "text", "content": "我没问题", "is_me": true, "user_id": "u-me" },
+      { "id": "d-8", "type": "text", "content": "我也行", "is_me": false, "user_id": "u-2" },
+      { "id": "d-9", "type": "text", "content": "那就定在老家，母校旁边那个酒店", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "有情怀，赞成", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "redpacket", "money": 99.99, "remark": "聚会基金", "is_me": false, "user_id": "u-1", "is_get": true },
+      { "id": "d-12", "type": "text", "content": "班长带头了，我也出点", "is_me": true, "user_id": "u-me" },
+      { "id": "d-13", "type": "redpacket", "money": 66.66, "remark": "一点心意", "is_me": true, "user_id": "u-me", "is_get": true },
+      { "id": "d-14", "type": "text", "content": "期待见面！", "is_me": false, "user_id": "u-2" }
+    ]
+  },
+  {
+    "id": "doctor-appointment",
+    "name": "医院问诊",
+    "desc": "和医生预约看病的对话",
+    "tag": "生活",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "08", "time_mini": "15",
+      "battery_charge": "1", "battery_amount": 90, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "李医生", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "李医生", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期一 上午 08:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "李医生您好，我想预约看病", "is_me": true, "user_id": "u-me" },
+      { "id": "d-3", "type": "text", "content": "好的，请问哪里不舒服", "is_me": false, "user_id": "u-1" },
+      { "id": "d-4", "type": "text", "content": "最近老是头疼，睡眠也不好", "is_me": true, "user_id": "u-me" },
+      { "id": "d-5", "type": "text", "content": "持续多久了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-6", "type": "text", "content": "大概两周了", "is_me": true, "user_id": "u-me" },
+      { "id": "d-7", "type": "text", "content": "有没有吃药", "is_me": false, "user_id": "u-1" },
+      { "id": "d-8", "type": "text", "content": "吃了布洛芬，但没太大效果", "is_me": true, "user_id": "u-me" },
+      { "id": "d-9", "type": "text", "content": "建议来医院做个检查", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "好的，什么时候方便", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "周三下午两点，可以吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "text", "content": "可以的，谢谢医生", "is_me": true, "user_id": "u-me" },
+      { "id": "d-13", "type": "text", "content": "记得空腹来", "is_me": false, "user_id": "u-1" },
+      { "id": "d-14", "type": "text", "content": "好的，记住了", "is_me": true, "user_id": "u-me" }
+    ]
+  },
+  {
+    "id": "job-interview",
+    "name": "面试通知",
+    "desc": "HR通知面试的职场对话",
+    "tag": "职场",
+    "phone": {
+      "single": "4", "wifi": "1", "wifi_single": "3",
+      "time_hour": "10", "time_mini": "30",
+      "battery_charge": "0", "battery_amount": 65, "ear": "0",
+      "mode": { "width": 1125, "height": 2436, "radio": 3, "zoom": 0.26 }
+    },
+    "setting": {
+      "title": "HR-王女士", "message": 0, "voice": "0", "background": "",
+      "dialog_content": "", "dialog_money": 0, "dialog_voice": 0,
+      "dialog_voice_isread": "1", "dialog_repacket_remark": "", "dialog_trans_remark": "",
+      "date_year": "", "date_month": "", "date_day": "", "date_xinqi": "", "date_shiduan": "", "date_hour": "", "date_min": ""
+    },
+    "users": [
+      { "id": "u-me", "name": "我", "image": "static/app/images/user-face.png", "is_me": true, "selected": true },
+      { "id": "u-1", "name": "HR王女士", "image": "static/app/images/icon-alipay-chat.png", "is_me": false, "selected": false }
+    ],
+    "dialogs": [
+      { "id": "d-1", "type": "notice", "content": "今天 星期四 上午 10:00", "is_system": true },
+      { "id": "d-2", "type": "text", "content": "您好，看到您投递的简历了", "is_me": false, "user_id": "u-1" },
+      { "id": "d-3", "type": "text", "content": "您好，是的", "is_me": true, "user_id": "u-me" },
+      { "id": "d-4", "type": "text", "content": "您的经历很匹配我们的岗位", "is_me": false, "user_id": "u-1" },
+      { "id": "d-5", "type": "text", "content": "想邀请您来面试，方便吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-6", "type": "text", "content": "方便的，什么时间", "is_me": true, "user_id": "u-me" },
+      { "id": "d-7", "type": "text", "content": "明天下午2点可以吗", "is_me": false, "user_id": "u-1" },
+      { "id": "d-8", "type": "text", "content": "可以的", "is_me": true, "user_id": "u-me" },
+      { "id": "d-9", "type": "text", "content": "地点在科技园A栋8楼", "is_me": false, "user_id": "u-1" },
+      { "id": "d-10", "type": "text", "content": "收到，需要带什么吗", "is_me": true, "user_id": "u-me" },
+      { "id": "d-11", "type": "text", "content": "带份简历就行", "is_me": false, "user_id": "u-1" },
+      { "id": "d-12", "type": "text", "content": "好的，明天见", "is_me": true, "user_id": "u-me" },
+      { "id": "d-13", "type": "text", "content": "期待您的到来", "is_me": false, "user_id": "u-1" }
+    ]
+  }
+]

@@ -1,0 +1,456 @@
+/* 微信对话生成器 - 扩展样式 */
+
+/* 扩展按钮栏 */
+.extend-btn-bar {
+    margin: 12px 0;
+    padding: 10px 12px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.extend-btn-bar .extend-btn {
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.extend-btn-bar .extend-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+}
+
+.extend-btn-bar .extend-btn:active {
+    transform: translateY(0);
+}
+
+/* 预设弹窗 */
+.preset-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preset-modal-mask {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+}
+
+.preset-modal-box {
+    position: relative;
+    width: 520px;
+    max-width: 92vw;
+    max-height: 80vh;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: preset-pop .2s ease;
+}
+
+@keyframes preset-pop {
+    from { transform: scale(.92); opacity: 0; }
+    to   { transform: scale(1);   opacity: 1; }
+}
+
+.preset-modal-header {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preset-modal-close {
+    color: #999;
+    font-size: 22px;
+    line-height: 1;
+    text-decoration: none;
+    padding: 0 4px;
+}
+
+.preset-modal-close:hover {
+    color: #333;
+}
+
+.preset-modal-body {
+    padding: 12px 18px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.preset-modal-footer {
+    padding: 10px 18px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    background: #fafafa;
+}
+
+.preset-item {
+    padding: 12px 14px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .15s ease;
+    background: #fff;
+}
+
+.preset-item:hover {
+    border-color: #07c160;
+    background: #f6fff9;
+    transform: translateX(2px);
+}
+
+.preset-item-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.preset-item-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #07c160;
+    background: #e8f7ee;
+    padding: 1px 6px;
+    border-radius: 10px;
+}
+
+.preset-item-desc {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.preset-item-meta {
+    font-size: 12px;
+    color: #999;
+}
+
+.preset-empty {
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .extend-btn-bar {
+        flex-direction: column;
+    }
+    .extend-btn-bar .extend-btn {
+        width: 100%;
+    }
+    .preset-modal-box {
+        width: 92vw;
+    }
+}
+
+/* ============================================================
+   对话设置 - 步骤卡片布局
+   ============================================================ */
+
+/* 步骤卡片 */
+.step-card {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    margin: 12px 0;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+.step-card-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: #f7f9fc;
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+}
+
+.step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #07c160;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.step-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    flex-shrink: 0;
+}
+
+.step-hint {
+    font-size: 12px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.step-hint b {
+    color: #07c160;
+    font-weight: 600;
+}
+
+.step-card-body {
+    padding: 12px 14px;
+}
+
+/* 用户管理标题沿用 step-card-head：覆盖原 dialog-user-title 样式 */
+.dialog-user-title.step-card-head {
+    margin: 0;
+    padding: 10px 14px;
+    background: #f7f9fc;
+    border-bottom: 1px solid #eee;
+    border-radius: 8px 8px 0 0;
+}
+
+/* 消息内容 textarea */
+.step-card .edit-dialog-text {
+    min-height: 80px;
+    resize: vertical;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* 属性网格：2 列 */
+.prop-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 14px;
+}
+
+.prop-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.prop-item > label {
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+}
+
+.prop-item .form-control {
+    width: 100%;
+}
+
+/* 语音已读行 */
+.prop-voice-read {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.prop-voice-read > label:first-child {
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* 时间提示区 */
+.prop-time {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #eee;
+}
+
+.prop-time-label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.prop-time-label span {
+    color: #999;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.time-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.time-row .form-control {
+    width: auto;
+    min-width: 64px;
+    flex: 1 1 auto;
+}
+
+.time-colon {
+    color: #999;
+    font-weight: 600;
+}
+
+/* 按钮组优化 */
+.step-card .btn-groups {
+    margin-bottom: 10px;
+}
+
+.step-card .btn-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.step-card .btn-group .btn {
+    flex: 1 1 auto;
+    min-width: 100px;
+}
+
+.step-card .btn-clear {
+    display: inline-block;
+    margin-top: 4px;
+    color: #e64340;
+    background: #fff;
+    border: 1px solid #e64340;
+    border-radius: 4px;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.step-card .btn-clear:hover {
+    background: #e64340;
+    color: #fff;
+}
+
+/* 响应式：窄屏单列 */
+@media (max-width: 600px) {
+    .prop-grid {
+        grid-template-columns: 1fr;
+    }
+    .step-card .btn-group .btn {
+        flex: 1 1 100%;
+    }
+}
+
+/* ===== 实时预览标识 ===== */
+.preview-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 99998;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(7, 193, 96, 0.92);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 5px 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    user-select: none;
+}
+
+.preview-badge-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    animation: preview-blink 1.4s ease-in-out infinite;
+}
+
+.preview-badge-text {
+    letter-spacing: 0.5px;
+}
+
+@keyframes preview-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* 确保 phone-wrap 作为定位上下文 */
+.phone-wrap {
+    position: relative;
+}
+
+/* ===== 全屏预览模态（纯图片，无缝自适应） ===== */
+.fs-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 100000;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    overflow: hidden;
+}
+
+.fs-modal-img {
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.fs-modal-loading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.fs-modal-tip {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fbbf24;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 20px;
+    z-index: 100001;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
